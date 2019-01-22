@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sign Up</title>
+
+    <link href="/static/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/static/css/signin.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <form class="form-signin" method="post" action="/member/signup">
+        <h2 class="form-signin-heading">Join User Center</h2>
+        <label class="sr-only">Username</label>
+        <input type="text" name="username" class="form-control" placeholder="Username" required >
+        <label class="sr-only">Password</label>
+        <input type="password" name="password" class="form-control" placeholder="Password" required>
+        <input type="submit" class="btn btn-lg btn-primary btn-block" value="Create an account">
+        <br>
+        <p>
+            Have a account? <a href="/member/login">Sign In</a>
+        </p>
+    </form>
+
+</div> <!-- /container -->
+
+</body>
+</html>
